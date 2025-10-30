@@ -1,0 +1,161 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body {
+    background-color: pink;
+    color: rgb(29, 19, 221);
+    line-height: 1.5;
+}
+
+header {
+    text-align: center;
+    background: lightblue;
+    color: white;
+    padding: 5px 10px;
+    box-shadow: 0 4px 8px;
+}
+
+header h1 {
+    font-size: 2.5;
+    letter-spacing: 2.5px;
+}
+
+header p {
+    font-size: 2.5;
+    letter-spacing: 2.0px;
+    font-style: italic;
+}
+
+nav {
+    background-color:aliceblue;
+    text-align: end;
+    padding: 5px 10px;
+    flex-wrap: wrap;
+}
+
+nav a {
+  color: rgb(130, 12, 240);
+  margin: 0 30px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#home p {
+    color: brown;
+
+}
+#home div img{
+    width: 500px;
+}
+
+
+section{
+    text-align: center;
+}
+
+
+button {
+
+    background-color: blue;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+section h2 {
+    color:rgb(20, 137, 100);
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(3, 182, 182);
+    display: inline-block;
+    padding-bottom: 10px;
+}
+    
+section p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(199, 4, 131);
+
+}
+
+ul {
+    list-style: none;
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+ul li {
+  text-align: center;
+  background: rgb(227, 141, 141);
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+#team 
+
+.image{
+    margin-top: 20px;
+}
+
+.image img {
+
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+}
+footer {
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#contact div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: rgb(193, 189, 188);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+#contact a {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-decoration: none;
+    color: rgb(204, 68, 6);
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+#contact img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#team img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline-block;
+    border: 4px solid rgba(0, 83, 166, 0.08);
+    margin-top: 12px;
+}
+
